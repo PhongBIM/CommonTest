@@ -33,9 +33,9 @@ namespace CommonTest
 
         }
 
-        private void btnMiddle_Click(object sender, EventArgs e)
+        private void btnShowVersion_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("This's a button Middle!");
+            MessageBox.Show("This's a button Show!");
         }
     }
 }

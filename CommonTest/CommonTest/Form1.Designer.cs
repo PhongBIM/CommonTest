@@ -35,13 +35,14 @@
             this.btnRight = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.lbNHP = new System.Windows.Forms.Label();
-            this.btnMiddle = new System.Windows.Forms.Button();
+            this.btnShowVersion = new System.Windows.Forms.Button();
             this.grpBox1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // grpBox1
             // 
+            this.grpBox1.Controls.Add(this.btnShowVersion);
             this.grpBox1.Controls.Add(this.lbIP);
             this.grpBox1.Controls.Add(this.button1);
             this.grpBox1.Location = new System.Drawing.Point(-1, 163);
@@ -93,7 +94,6 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.btnMiddle);
             this.groupBox1.Controls.Add(this.lbNHP);
             this.groupBox1.Controls.Add(this.btnLeft);
             this.groupBox1.Controls.Add(this.btnRight);
@@ -114,15 +114,15 @@
             this.lbNHP.TabIndex = 2;
             this.lbNHP.Text = "Coded by NHPIT993";
             // 
-            // btnMiddle
+            // btnShowVersion
             // 
-            this.btnMiddle.Location = new System.Drawing.Point(94, 72);
-            this.btnMiddle.Name = "btnMiddle";
-            this.btnMiddle.Size = new System.Drawing.Size(75, 23);
-            this.btnMiddle.TabIndex = 3;
-            this.btnMiddle.Text = "Middle";
-            this.btnMiddle.UseVisualStyleBackColor = true;
-            this.btnMiddle.Click += new System.EventHandler(this.btnMiddle_Click);
+            this.btnShowVersion.Location = new System.Drawing.Point(226, 23);
+            this.btnShowVersion.Name = "btnShowVersion";
+            this.btnShowVersion.Size = new System.Drawing.Size(47, 23);
+            this.btnShowVersion.TabIndex = 2;
+            this.btnShowVersion.Text = "Show";
+            this.btnShowVersion.UseVisualStyleBackColor = true;
+            this.btnShowVersion.Click += new System.EventHandler(this.btnShowVersion_Click);
             // 
             // Form1
             // 
@@ -152,7 +152,7 @@
         private System.Windows.Forms.Button btnRight;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label lbNHP;
-        private System.Windows.Forms.Button btnMiddle;
+        private System.Windows.Forms.Button btnShowVersion;
 
     }
 }
