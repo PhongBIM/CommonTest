@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-<<<<<<< HEAD
+
             this.grpBox1 = new System.Windows.Forms.GroupBox();
             this.button1 = new System.Windows.Forms.Button();
             this.lbIP = new System.Windows.Forms.Label();
@@ -65,7 +65,7 @@
             this.lbIP.Size = new System.Drawing.Size(162, 16);
             this.lbIP.TabIndex = 1;
             this.lbIP.Text = "Coded By IPHONG993";
-=======
+
             this.btnLeft = new System.Windows.Forms.Button();
             this.btnRight = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -114,42 +114,42 @@
             this.lbNHP.Size = new System.Drawing.Size(149, 16);
             this.lbNHP.TabIndex = 2;
             this.lbNHP.Text = "Coded by NHPIT993";
->>>>>>> origin/master
+
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
-<<<<<<< HEAD
+
             this.Controls.Add(this.grpBox1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.grpBox1.ResumeLayout(false);
             this.grpBox1.PerformLayout();
-=======
+
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
->>>>>>> origin/master
+
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-<<<<<<< HEAD
+
         private System.Windows.Forms.GroupBox grpBox1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label lbIP;
-=======
+
         private System.Windows.Forms.Button btnLeft;
         private System.Windows.Forms.Button btnRight;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label lbNHP;
->>>>>>> origin/master
+
     }
 }
 
