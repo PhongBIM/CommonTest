@@ -17,11 +17,11 @@ namespace CommonTest
             InitializeComponent();
         }
 
-<<<<<<< HEAD
+
         private void button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Coded by IPHONG993");
-=======
+        }
         private void btnLeft_Click(object sender, EventArgs e)
         {
             MessageBox.Show("This's a button Left!");
@@ -30,7 +30,8 @@ namespace CommonTest
         private void btnRight_Click(object sender, EventArgs e)
         {
             MessageBox.Show("This's a button Right!");
->>>>>>> origin/master
+
         }
     }
 }
+
