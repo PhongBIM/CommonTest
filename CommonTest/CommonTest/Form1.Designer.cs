@@ -28,11 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-
             this.grpBox1 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.lbIP = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.btnLeft = new System.Windows.Forms.Button();
+            this.btnRight = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.lbNHP = new System.Windows.Forms.Label();
+            this.btnMiddle = new System.Windows.Forms.Button();
             this.grpBox1.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // grpBox1
@@ -46,16 +51,6 @@
             this.grpBox1.TabStop = false;
             this.grpBox1.Text = "ByIPHONG993";
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(7, 53);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(275, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Click Me!!!";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // lbIP
             // 
             this.lbIP.AutoSize = true;
@@ -65,13 +60,16 @@
             this.lbIP.Size = new System.Drawing.Size(162, 16);
             this.lbIP.TabIndex = 1;
             this.lbIP.Text = "Coded By IPHONG993";
-
-            this.btnLeft = new System.Windows.Forms.Button();
-            this.btnRight = new System.Windows.Forms.Button();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.lbNHP = new System.Windows.Forms.Label();
-            this.groupBox1.SuspendLayout();
-            this.SuspendLayout();
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(7, 53);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(275, 23);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Click Me!!!";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnLeft
             // 
@@ -95,6 +93,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.btnMiddle);
             this.groupBox1.Controls.Add(this.lbNHP);
             this.groupBox1.Controls.Add(this.btnLeft);
             this.groupBox1.Controls.Add(this.btnRight);
@@ -114,26 +113,30 @@
             this.lbNHP.Size = new System.Drawing.Size(149, 16);
             this.lbNHP.TabIndex = 2;
             this.lbNHP.Text = "Coded by NHPIT993";
-
+            // 
+            // btnMiddle
+            // 
+            this.btnMiddle.Location = new System.Drawing.Point(94, 72);
+            this.btnMiddle.Name = "btnMiddle";
+            this.btnMiddle.Size = new System.Drawing.Size(75, 23);
+            this.btnMiddle.TabIndex = 3;
+            this.btnMiddle.Text = "Middle";
+            this.btnMiddle.UseVisualStyleBackColor = true;
+            this.btnMiddle.Click += new System.EventHandler(this.btnMiddle_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
-
             this.Controls.Add(this.grpBox1);
+            this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.grpBox1.ResumeLayout(false);
             this.grpBox1.PerformLayout();
-
-            this.Controls.Add(this.groupBox1);
-            this.Name = "Form1";
-            this.Text = "Form1";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-
             this.ResumeLayout(false);
 
         }
@@ -149,6 +152,7 @@
         private System.Windows.Forms.Button btnRight;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label lbNHP;
+        private System.Windows.Forms.Button btnMiddle;
 
     }
 }

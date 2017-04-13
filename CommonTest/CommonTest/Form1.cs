@@ -32,6 +32,11 @@ namespace CommonTest
             MessageBox.Show("This's a button Right!");
 
         }
+
+        private void btnMiddle_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("This's a button Middle!");
+        }
     }
 }
 
