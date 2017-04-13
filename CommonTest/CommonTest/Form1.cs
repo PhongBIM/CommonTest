@@ -16,5 +16,15 @@ namespace CommonTest
         {
             InitializeComponent();
         }
+
+        private void btnLeft_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("This's a button Left!");
+        }
+
+        private void btnRight_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("This's a button Right!");
+        }
     }
 }
